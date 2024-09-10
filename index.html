@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>chess-board & tooltip</title>
+    <style>
+      .container {
+        width: 800px;
+        height: 800px;
+        border: 2px solid black;
+        margin: auto;
+      }
+      .row {
+        display: flex;
+      }
+      .white {
+        width: 100px;
+        height: 100px;
+        background-color: white;
+      }
+      .black {
+        width: 100px;
+        height: 100px;
+        background-color: rgb(6, 139, 95);
+        color: rgb(8, 8, 8);
+      }
+      p {
+        font-size: 50px;
+        margin-top: 10px;
+        margin-left: 25px;
+        margin-right: 20px;
+      }
+
+      p:hover {
+        transform: scale(1.5);
+        color: rgb(8, 7, 8);
+      }
+      .white:hover {
+        background-color: rgb(0, 183, 255);
+      }
+      .black:hover {
+        background-color: rgb(240, 9, 9);
+      }
+      a {
+        position: relative;
+        font-size: 40px;
+        margin-left:70%;
+        top: -30px;
+      }
+      a:link {
+        color: rgb(145, 6, 6);
+      }
+      a:hover {
+        color: rgb(255, 0, 149);
+      }
+
+      a:active {
+        color: rgb(7, 151, 247);
+      }
+      h1{
+        position: relative;
+        top: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="text-align: center">
+      &#9813;
+      <i>Chess Board</i>
+      &#9812;
+    </h1>
+    <a href="../html/day15.html">TOOLTIP</a>
+    <div class="container">
+      <div class="row row1">
+        <div class="white">
+          <p>&#9820;</p>
+          <p></p>
+        </div>
+        <div class="black"><p>&#9822;</p></div>
+        <div class="white"><p>&#9821;</p></div>
+        <div class="black"><p>&#9819;</p></div>
+        <div class="white"><p>&#9818;</p></div>
+        <div class="black"><p>&#9821;</p></div>
+        <div class="white"><p>&#9822;</p></div>
+        <div class="black"><p>&#9820;</p></div>
+      </div>
+      <div class="row row2">
+        <div class="black"><p>&#9823;</p></div>
+        <div class="white"><p>&#9823;</p></div>
+        <div class="black"><p>&#9823;</p></div>
+        <div class="white"><p>&#9823;</p></div>
+        <div class="black"><p>&#9823;</p></div>
+        <div class="white"><p>&#9823;</p></div>
+        <div class="black"><p>&#9823;</p></div>
+        <div class="white"><p>&#9823;</p></div>
+      </div>
+      <div class="row row3">
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+      </div>
+      <div class="row row4">
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+      </div>
+      <div class="row row5">
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+      </div>
+      <div class="row row6">
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+      </div>
+      <div class="row row7">
+        <div class="white"><p>&#9817;</p></div>
+        <div class="black"><p>&#9817;</p></div>
+        <div class="white"><p>&#9817;</p></div>
+        <div class="black"><p>&#9817;</p></div>
+        <div class="white"><p>&#9817;</p></div>
+        <div class="black"><p>&#9817;</p></div>
+        <div class="white"><p>&#9817;</p></div>
+        <div class="black"><p>&#9817;</p></div>
+      </div>
+      <div class="row row8">
+        <div class="black"><p>&#9814;</p></div>
+        <div class="white"><p>&#9816;</p></div>
+        <div class="black"><p>&#9815;</p></div>
+        <div class="white"><p>&#9813;</p></div>
+        <div class="black"><p>&#9812;</p></div>
+        <div class="white"><p>&#9815;</p></div>
+        <div class="black"><p>&#9816;</p></div>
+        <div class="white"><p>&#9814;</p></div>
+      </div>
+    </div>
+  </body>
+</html>
